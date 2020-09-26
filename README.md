@@ -12,6 +12,8 @@ You need a recent Linux, Unix, or Mac system with bash, curl and git for this tu
 
 ### Install additional packages:
 
+Install the Python build dependencies for your platform, using one of the commands listed in the official instructions. For example, on a recent Ubuntu this would be:
+
 ```sh
 sudo apt update &&\
 sudo apt install -y \
@@ -60,14 +62,6 @@ Open a new shell, or source ~/.bashrc in your current shell:
 
 ```sh
 source ~/.bashrc
-```
-
-Install the Python build dependencies for your platform, using one of the commands listed in the official instructions. For example, on a recent Ubuntu this would be:
-
-```sh
-sudo apt update && sudo apt install -y make build-essential libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
-libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 ```
 
 ### Install python
