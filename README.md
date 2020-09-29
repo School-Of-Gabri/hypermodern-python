@@ -137,7 +137,7 @@ There you go: One declarative file in TOML syntax, containing the entire package
 ```toml
 # pyproject.toml
 [tool.poetry]
-...
+. . .
 description = "The hypermodern Python project"
 license = "MIT"
 readme = "README.md"
