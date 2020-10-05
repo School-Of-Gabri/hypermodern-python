@@ -69,27 +69,27 @@ source ~/.bashrc
 You’re ready to install the latest Python releases. This may take a while:
 
 ```sh
-pyenv install 3.8.2
-pyenv install 3.7.7
+pyenv install 3.8.6
+pyenv install 3.7.0
 ```
 
 Make your fresh Pythons available inside the repository:
 
 ```sh
-pyenv local 3.8.2 3.7.7
+pyenv local 3.8.6 3.7.0
 ```
 
 Congratulations! You have access to the latest and greatest of Python:
 
 ```
 $ python --version
-Python 3.8.2
+Python 3.8.6
 
 $ python3.7 --version
-Python 3.7.7
+Python 3.7.0
 ```
 
-Python 3.8.2 is the default version and can be invoked as python, but both versions are accessible as python3.7 and python3.8, respectively.
+Python 3.8.6 is the default version and can be invoked as python, but both versions are accessible as python3.7 and python3.8, respectively.
 
 ### Install Poetry
 
